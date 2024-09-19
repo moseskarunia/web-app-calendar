@@ -1,0 +1,58 @@
+th, td {
+  color: black;
+  background-color: transparent;
+}
+
+/* Method #1 - Use class */
+.holiday {
+  color: red;  
+}
+
+.weekend {
+  color: pink;
+}
+
+td:hover {
+  color: white;
+  background-color: blue;
+}
+
+td.holiday:hover {
+  color: white;
+  background-color: red;
+}
+
+td.weekend:hover {
+  color: white;
+  background-color: pink; 
+}
+
+td.other-month {
+  opacity: 0.25;	
+}
+
+
+/* Method #2 - Use nth child.
+th:nth-child(1), td:nth-child(1) {
+  color: red;  
+}
+
+th:nth-child(7), td:nth-child(7) {
+  color: pink;
+}
+
+th:hover, td:hover {
+  color: white;
+  background-color: blue;
+}
+
+td:nth-child(1):hover {
+  color: white;
+  background-color: red;
+}
+
+td:nth-child(7):hover {
+  color: white;
+  background-color: pink; 
+}
+*/
